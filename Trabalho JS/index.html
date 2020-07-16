@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Trabalho 1 JS</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>
+        Trabalho JS Paleta de Cores RGB
+      </h1>
+      <div id="red">
+        <h4>Red</h4>
+        <input
+          class="range"
+          type="range"
+          id="redinput"
+          min="0"
+          max="255"
+          step="1"
+          value="0"
+        />
+        <input
+          class="valorrange"
+          type="text"
+          name="red"
+          id="boxred"
+          value="0"
+          disabled
+        />
+      </div>
+      <div id="green">
+        <h4>Green</h4>
+        <input
+          class="range"
+          type="range"
+          id="greeninput"
+          min="0"
+          max="255"
+          step="1"
+          value="0"
+        />
+        <input
+          class="valorrange"
+          type="text"
+          name="green"
+          id="boxgreen"
+          value="0"
+          disabled
+        />
+      </div>
+      <div id="blue">
+        <h4>Blue</h4>
+        <input
+          class="range"
+          type="range"
+          id="blueinput"
+          min="0"
+          max="255"
+          step="1"
+          value="0"
+        />
+        <input
+          class="valorrange"
+          type="text"
+          name="blue"
+          id="boxblue"
+          value="0"
+          disabled
+        />
+      </div>
+      <p>Mova as barras para ver as combinações de cores</p>
+      <div>
+        <h1>Paleta de Cor</h1>
+        <span id="legenda"></span>
+        <div id="paleta"></div>
+      </div>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
